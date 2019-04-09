@@ -1,1 +1,1 @@
-alert ('Hola ya hice cambios')
+alert ('Bienvenid@ a la mejor plataforma de Salud!!!')
