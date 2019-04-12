@@ -53,11 +53,118 @@
 <!-- Termina NavBar -->
 <!-- Inicia Jumbotron -->
 <div class="jumbotron">
+  <div class="botroncito">
+    
     <h1 class="display-4">EatME</h1>
     <p class="lead">Preparación de comidas saludables a domicilio.</p>
     <hr class="my-4">
     <p>Especialistas en recetas bajas en grasa, azúcar, carbohidratos y sal.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">¡Haz tu cita!</a>
+    <!-- ------------- 
+      
+ -->  </div>
+ <button type="button" class="super-boton btn btn-primary botonP" data-toggle="modal" data-target="#citaModal">
+    has tu cita! </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="citaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">pedido</h5>
+
+        </div>
+        <div class="modal-body">
+          <div class="formulario">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Correo o usuario</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder=>
+                    </div>
+                    <div class="form-group">
+
+                      <label for="exampleFormControlSelect1">Algun tipo de dieta en especial </label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Baja en grasas</option>
+                        <option>Diabetico</option>
+                        <option>Hipertension</option>
+                        <option>Vegetariano</option>
+                        <option>Otro</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1"> Cual es tu pedido?</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1"> en que fecha?</label>
+                      <div class='input-group date' id='datetimepicker1'>
+                        <input type='date' class="form-control" />
+                        <span class="input-group-addon">
+                          <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Cuantos personas? </label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1-3</option>
+                        <option>3-5</option>
+                        <option>5-8</option>
+                        <option>8-10</option>
+                        <option>10-12</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Dirección</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder=>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-group">
+
+
+                      </div>
+                      <!-- <div class="col">
+                                      3 of 3
+                                    </div> -->
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer caja">
+
+              <button type="button" class="btn btn-primary botonP" data-toggle="modal"
+                data-target="#btnEnviado">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="btnEnviado" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h1>Enviado!</h1>
+            <div class="modal-footer caja">
+
+                <a href="javascript:location.reload()"><button type="button" class="btn btn-primary botonP" data-toggle="modal"
+                data-target="#btnEnviado"> Listo!</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
   </div>
 <!-- Termina Jumbotron -->
 <!-- Empieza CardImage -->

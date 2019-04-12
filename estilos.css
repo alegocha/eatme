@@ -25,3 +25,25 @@
 /* Fonts de Permanent Marker */
 h2 { font-family: "Permanent Marker"; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Permanent Marker"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }  { font-family: "Permanent Marker"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Permanent Marker"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Permanent Marker"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
 /* Termina Fonts Permanent Marker */
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.ecestaticos.com/imagestatic/clipping/f2a/f17/f2af17998dfa678faf380f14027b0307/los-grandes-trucos-de-cocina-de-los-mejores-chefs-que-puedes-copiar-en-casa.jpg?mtime=1488473497");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.botroncito{
+  background-color: gray;
+  opacity: 0.8;
+  color: white;
+  border-radius: 10%;
+  width: 500px;
+  padding-left: 50px;
+
+}
+
+super-boton{
+  display:block;
+}
