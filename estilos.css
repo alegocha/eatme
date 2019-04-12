@@ -1,5 +1,22 @@
+.display-4 {
+  display: flex;
+  justify-content: center;
+}
+.lead {
+  display: flex;
+  justify-content: center;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+ /* Pendiente {
+  display: flex;
+  justify-content: center; */
+}
+
 /* Inicia Estilos de Chef - Center align the text within the three columns below the carousel */
-.rowback {
+.row rowback {
     background-color: black;
     background-size: 100%;
 
@@ -8,7 +25,7 @@
     mask-image: '250px-Chef_Oropeza_2017.jpg';
     margin-bottom: 1.5rem;
     text-align: center;
-    color: white;
+    color: blue;
   }
   .marketing h2 {
     font-weight: 400;
@@ -23,5 +40,5 @@
 /* Termina Estilos de Chefs EatMe*/
 
 /* Fonts de Permanent Marker */
-h2 { font-family: "Permanent Marker"; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Permanent Marker"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }  { font-family: "Permanent Marker"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Permanent Marker"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Permanent Marker"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+h1 { font-family: "Permanent Marker"; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Permanent Marker"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }  { font-family: "Permanent Marker"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Permanent Marker"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Permanent Marker"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
 /* Termina Fonts Permanent Marker */
