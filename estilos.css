@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
 }
-p {
+p1 {
   display: flex;
   justify-content: center;
 }
@@ -41,7 +41,42 @@ p {
 
 /* Fonts de Permanent Marker */
 
-h2 { font-family: "Permanent Marker"; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Permanent Marker"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }  { font-family: "Permanent Marker"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Permanent Marker"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Permanent Marker"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+h2 { font-family: "Permanent Marker";
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px; 
+} 
+h3 { font-family: "Permanent Marker"; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 15.4px; 
+}  
+  h1 { font-family: "Permanent Marker"; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px;
+    color: skyblue; 
+  } 
+  text-muted { font-family: "Permanent Marker"; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+  } 
+  pre { font-family: "Permanent Marker";
+       font-size: 17px; 
+       font-style: normal; 
+       font-variant: normal; 
+       font-weight: 400; 
+       line-height: 18.5714px; 
+      }
 /* Termina Fonts Permanent Marker */
 .jumbotron{
   display: flex;
@@ -69,7 +104,7 @@ h2 { font-family: "Permanent Marker"; font-size: 30px; font-style: normal; font-
 
 }
 
-h1 { font-family: "Permanent Marker"; 
+/* h1 { font-family: "Permanent Marker"; 
   font-size: 30px; 
   font-style: normal; 
   font-variant: normal; 
@@ -101,5 +136,5 @@ h1 { font-family: "Permanent Marker";
         font-style: normal; 
         font-variant: normal; 
         font-weight: 400; 
-        line-height: 18.5714px; }
+        line-height: 18.5714px; } */
 /* Termina Fonts Permanent Marker */
